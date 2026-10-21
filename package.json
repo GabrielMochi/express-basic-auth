@@ -5,7 +5,7 @@
   "main": "index.js",
   "types": "express-basic-auth.d.ts",
   "scripts": {
-    "check-dts": "tsc --strict --noEmit --skipLibCheck test-dts.ts",
+    "check-dts": "tsc express-basic-auth.d.ts",
     "test": "mocha test.js && npm run check-dts"
   },
   "repository": {

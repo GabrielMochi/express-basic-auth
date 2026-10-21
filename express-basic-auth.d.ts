@@ -57,7 +57,7 @@ declare namespace expressBasicAuth {
 
     type ValueOrFunction<T> = T | ((req: IBasicAuthedRequest) => T)
 
-    type UnauthorizedResponse = string | Record<string, unknown>
+    type UnauthorizedResponse = string | Record<string, any>
 
     interface IBaseOptions {
         /**
